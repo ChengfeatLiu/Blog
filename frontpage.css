@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.getstart {
+	position: absolute;
+	top: 500px;
+	left: 450px;
+	font-size: 70px;
+	font-family: Optima, sans-serif;
+	color: white;
+	letter-spacing: 10px;
+}
+
+.getstart:hover {
+    transform: translateY(10px);
+    transition: 0.7s;
+}
+
+.getstart:active {
+    opacity: 0.1;
+    transform: translateY(100px);
+    transition: 2s;
+}
